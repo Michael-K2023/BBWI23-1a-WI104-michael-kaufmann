@@ -1,4 +1,19 @@
-p.normal {
-    font-style: arial;
+p.beschreibung {
+    color: rgb(131, 123, 123);
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
   }
-  
+
+.überschrift {
+  text-align: center ;
+}
+
+.link{
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  }
