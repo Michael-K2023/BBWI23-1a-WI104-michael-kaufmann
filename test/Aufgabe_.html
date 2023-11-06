@@ -9,12 +9,33 @@
         .eine-zeile {
             display: block;
              }
+
 li span {
-    padding-left: 20px ;
+    padding-left: 50px ;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
 list-style: none;
+
+}
+
+body {
+  width: 370px;
+  height: 532px;
+  border: 4px solid rgba(0, 0, 0.14);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.pay {
+    
+    display: block;
 
 }
     
@@ -24,11 +45,11 @@ list-style: none;
    <details>
        <summary>Billing Summary</summary>
        <ul>
-           <li>Subtotal<span>$3370</span></li>
-           <li>Subtotal<span>123</span></li>
-           <li>Subtotal<span>$3370</span></li>
-           <li>Subtotal<span>$3370</span></li>
-           <li>Subtotal<span>$3370</span></li>
+           <li>Subtotal<span>$3720,27</span></li>
+           <li>Discount<span>-$749.99</span></li>
+           <li>Warrantx<span>$259.99</span></li>
+           <li>Shipping<span>$0.00</span></li>
+           <li>Tax<span>$228.72</span></li>
        </ul>
    </details>
    <label class="eine-zeile">Order comment</label>
@@ -36,6 +57,6 @@ list-style: none;
 
    </textarea>
    <label class="eine-zeile"><input type="checkbox"> Please check to acknowledge our Privacy & Terms Policy</label>
-   <button class="eine-zeile">Pay $3,439.00</button>
+   <button class="pay">Pay $3,439.00</button>
 </body>
 </html>
